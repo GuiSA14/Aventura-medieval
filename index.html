@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A wild Bard Appears</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <p>
+                Gostaria de começar vossa jornada
+            </p>
+            <button class="btn-proximo" data-proximo="1">
+                Sim
+            </button>
+            <button class="btn-proximo" data-proximo="1">
+                Também
+            </button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>
+                Prazer em conhecê-lo, sou Vagner Zoio, um humilde bardo, gostaria de ouvir minhas músicas
+            </p>
+            <button class="btn-proximo" data-proximo="2">
+                Claro, adoraria ouvir vossa cantiga
+            </button>
+            <button class="btn-proximo" data-proximo="8">
+                Estou com pressa, me desculpe minha ignorância
+            </button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>
+                Aqui está minha cantiga
+            </p>
+            <button class="btn-proximo" data-proximo="3">
+                Ouvir
+            </button>
+            <button class="btn-proximo" data-proximo="9">
+                Sair
+            </button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>
+                ...
+            </p>
+            <button class="btn-proximo" data-proximo="4">
+                Apreciar
+            </button>
+            <button class="btn-proximo" data-proximo="8">
+                Sair
+            </button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>
+                Agora que você apreciou minha musica, entre para meu grupo de aventureiros
+            </p>
+            <button class="btn-proximo" data-proximo="5">
+                Aceitar
+            </button>
+            <button class="btn-proximo" data-proximo="8">
+                ignorar
+            </button>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>
+                em suas aventuras diversos monstros aparecem, mas com seu grupo e suas incriveis musicas os desafios desaparecem
+            </p>
+            <button class="btn-proximo" data-proximo="6">
+                :D
+            </button>
+            <button class="btn-proximo" data-proximo="6">
+                >:D
+            </button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>
+                reiniciar a historia
+            </p>
+            <button class="btn-proximo" data-proximo="0">
+                ...
+            </button>
+            <button class="btn-proximo" data-proximo="0">
+                ,,,
+            </button>
+        </div>
+
+        <!-- Adicione outros passos conforme necessário -->
+        
+        <!-- Elemento de áudio -->
+        <audio id="audio-bardo" src="Outer Wilds OST - Travelers (All Instruments Join).mp3"></audio>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
